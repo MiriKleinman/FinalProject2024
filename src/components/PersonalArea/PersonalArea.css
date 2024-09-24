@@ -1,0 +1,94 @@
+.bodyPersonalArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.label {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+}
+
+.formUpdateUser {
+    width: 50%;
+    height: 50%;
+    padding: 40px;
+    background-color: var(--gray, #EEF2FA);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.firstName,
+.lastName,
+.email,
+.phone {
+    border-radius: 6px;
+    border: 0.7px solid var(--light-purple, #B5A8D1);
+    background: #FFF;
+    display: flex;
+    width: 193px;
+    height: 40px;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    position: absolute;
+}
+
+.successEditPersonalDetails {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.leftPanePersonalArea, .rightPanePersonalArea {
+    width: 193px;
+    right: 800px;
+    position: absolute;
+}
+
+.rightPanePersonalArea {
+    width: 193px;
+    right: 520px;
+    position: absolute;
+}
+
+.sendPersonalChangesBtn {
+    margin-top: 270px;
+    box-sizing: border-box;
+    width: 118px;
+    height: 36px;
+    background: #6450C8;
+    border: 1px solid #6450C8;
+    border-radius: 6px;
+    border-radius: 6px;
+    display: flex;
+    padding: 9px 28px 13px 28px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    cursor: pointer;
+}
+

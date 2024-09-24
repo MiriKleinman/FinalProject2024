@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.loginTitle {
+    color: var(--purple, #6450C8);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.44px;
+}
+
+.loginButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14.237px;
+    border-radius: 8.542px;
+    border: 1.424px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    display: flex;
+    width: 168px;
+    height: 51.254px;
+    padding: 12.814px 59.83px 17.441px 58.169px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    position: absolute;
+    /* margin-right: 20%; */
+    cursor: pointer;
+}
+
+.userIdInput {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.384px;
+    margin-left: 70%;
+}
+.userPasswordInput {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.384px;
+    margin-left: 80%;
+}
+
+input {
+    width: 281.065px;
+    height: 40px;
+    border-radius: 8.738px;
+    border: 1.019px solid var(--light-purple, #B5A8D1);
+    background: #FFF;
+}
+
+#loginBody {
+    position: absolute;
+    background: #F5F9FF;
+}
+
+#divDetails,
+#divSentences {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 31px;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#divDetails {
+    right: 0;
+    background: var(--gray, #F5F9FF);
+}
+
+#divSentences {
+    left: 0;
+    background: var(--gray, #e9eff8);
+    margin-right: 50%;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#sen1 {
+    color: var(--purple-text, #262041);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Rubik';
+    line-height: 150%;
+    display: flex;
+    width: 166px;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 60px;
+    font-weight: 900;
+    letter-spacing: -0.792px;
+}
+
+#sen2 {
+    color: var(--purple-text, #262041);
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Rubik';
+    line-height: 150%;
+    display: flex;
+    width: 206px;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 60px;
+    font-weight: 900;
+    letter-spacing: -0.792px;
+}
+
+#sen3 {
+    color: #6450C8;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Rubik';
+    font-weight: 950;
+    line-height: 96%;
+    display: flex;
+    width: 238px;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 75px;
+    font-weight: 900;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+}
+
+#sen4{
+    color: #262041;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Rubik';
+    line-height: 150%;
+    letter-spacing: -0.792px;
+    display: flex;
+    width: 477px;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 60px;
+    font-weight: 900;
+}

@@ -1,0 +1,38 @@
+.editCommunityTitle {
+    color: var(--gray-text, #666476);
+    text-align: center;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.44px;
+    margin-top: 8%;
+}
+
+.editCommunityForm {
+    margin-top: 15%;
+    margin-right: 28%;
+}
+
+.saveEditCommunity {
+    border-radius: 6px;
+    border: 1px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    display: flex;
+    width: 118px;
+    height: 36px;
+    padding: 9px 0px 13px 0px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    margin-right: 12%;
+    margin-top: 30%;
+}

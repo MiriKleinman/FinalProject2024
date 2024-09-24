@@ -1,0 +1,118 @@
+.iconActivity {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    bottom: 0%;
+}
+
+.activityTitle {
+    right: 250px;
+    top: 70px;
+    height: 27px;
+    position: absolute;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #666476;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.activitySubTitle {
+    right: 250px;
+    top: 100px;
+    height: 14px;
+    position: absolute;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #ADABBB;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.addActivity {
+    box-sizing: border-box;
+    height: 36px;
+    left: calc(100vw - 1306px);
+    position: absolute;
+    background: #6450C8;
+    border: 1px solid #6450C8;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    top: 150px;
+    border-radius: 6px;
+    display: flex;
+    padding: 9px 28px 13px 28px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    cursor: pointer;
+}
+
+/* #table {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    padding: 0px !important;
+    isolation: isolate !important;
+    width: 1600px !important;
+    top: 25% !important;
+    right: 14.7% !important;
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+    position: absolute !important;
+} */
+
+.closeAddingIcon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.editLink,
+.fullViewLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sendMessageLink,
+.deleteLink {
+    cursor: pointer;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    height: 100% !important;
+}
+
+.closePageIcon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+}

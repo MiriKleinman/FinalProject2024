@@ -1,0 +1,196 @@
+.courseMessages {
+    width: 330px;
+    height: 100%;
+    position: fixed;
+    background: var(--gray, #EEF2FA);
+}
+
+.title {
+    right: 250px;
+    top: 70px;
+    height: 27px;
+    position: absolute;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #666476;
+}
+
+
+.operatorDetails, 
+.costDetails, .countOfRegistereds, .courseTime{
+    position: absolute;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #ADABBB;
+}
+.operatorDetails {
+    right: 268px;
+    top: 115px;
+}
+
+.costDetails {
+    right: 424px;
+    top: 115px;
+}
+
+.countOfRegistereds {
+    right: 268px;
+    top: 148px;
+}
+
+.courseTime {
+    right: 424px;
+    top: 148px;
+} 
+
+.profilIcon, .countOfRegisteredsIcon, .costIcon, .courseTimeIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.profilIcon {
+    right: 244px;
+    top: 117px;
+}
+.countOfRegisteredsIcon {
+    right: 400px;
+    top: 117px;
+}
+
+.costIcon {
+    right: 244px;
+    top: 150px;
+}
+
+.courseTimeIcon {
+    right: 400px;
+    top: 150px;
+}
+
+.editIcon {
+    width: 15.103px;
+    height: 15.103px;
+    position: absolute;
+    left: 492px;
+    top: 157px;
+}
+
+.edit, .addCourseRegistered {
+    color: var(--purple, #6450C8);
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+    top: 154px;
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.edit {
+    left: 450px;
+}
+.addCourseRegistered{
+    left: 515px;
+}
+
+.courseDetails .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    display: flex !important;
+    width: calc(100vw - 650px) !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    padding: 0px !important;
+    isolation: isolate !important;
+    right: 245px !important;
+    top: 181px !important;
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+    position: absolute;
+}
+
+.notPaid {
+    border-radius: 6px;
+    border: none;
+    background: var(--purple-text, #C0B8E9);
+    display: flex;
+    height: 20px;
+    width: 80px;
+    padding: 3px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--black, #000);
+    text-align: right;
+    font-size: 11px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 600;
+    line-height: 148.5%;
+    left: 50%;
+    top: 30%;
+}
+
+.paid {
+    border-radius: 6px;
+    border: none;
+    background: var(--dark-gray, #E1DFEA);
+    display: flex;
+    height: 20px;
+    width: 80px;
+    padding: 3px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--black, #000);
+    text-align: right;
+    font-size: 11px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 600;
+    line-height: 148.5%;
+    left: 50%;
+    top: 30%;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+    font-size: 13px !important;
+    color: var(--black, #000) !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    background-color: var(--gray, #EEF2FA) !important;
+    justify-content: center;
+}
+
+.closePageIcon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper:has(.formAddRegistered) {
+    display: grid !important;
+    align-content: baseline !important;
+    gap: 55px !important;
+}
+
+.courseMessages .formSendMessage {
+    font-family: 'Noto Sans Hebrew';
+    color: var(--gray-text, #666476);
+    font-size: smaller;
+    margin: 30px 24.5px 0;
+}

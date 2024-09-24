@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew&display=swap');
+
+#navigation {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    max-width: 185px;
+    /* Set a maximum width for the navigation */
+    background: #6450C8;
+}
+
+#nav,
+#navSelect {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px 15px;
+    gap: 15px;
+    background: #6450C8;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#nav:hover,
+#navSelect:hover {
+    background: #47388C;
+}
+
+
+#nav:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px 15px;
+    gap: 15px;
+    width: 185px;
+    height: 60px;
+    background: black;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#navi {
+    width: 185px;
+    height: 750px;
+    background: #6450C8;
+    cursor: pointer;
+}
+
+#name {
+    width: 86px;
+    height: 24px;
+    margin-left: 5px;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#select {
+    /* display: none; */
+    align-items: flex-start;
+    background-color: transparent !important;
+    border-style: none !important;
+    list-style-type: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    padding: 0px !important;
+    gap: 10px !important;
+    width: 185px !important;
+    height: 60px !important;
+    font-family: 'Noto Sans Hebrew', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    position: absolute !important;
+    appearance: none !important;
+    border: none !important;
+    outline: none !important;
+    text-align: center !important;
+    right: 0%;
+}
+
+.option {
+    background-color: var(--unnamed, #DEDAF3);
+    display: flex !important;
+    width: 185px !important;
+    padding: 18px 33px !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-family: 'Noto Sans Hebrew' !important;
+    list-style-type: none !important;
+    flex-direction: row !important;
+    width: 200px !important;
+    height: 60px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    cursor: pointer;
+}
+
+.option:hover {
+    border-right: 2px solid var(--purple, #6450C8) !important;
+    background-color: #9681FF !important;
+    display: flex !important;
+    width: 185px !important;
+    padding: 18px 33px !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.logo {
+    width: 13px;
+    height: 13px;
+    margin-top: 30%;
+    margin-left: 90px;
+}
+
+.logoSentence {
+    color: var(--blue, #BBD2FF);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.792px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.logoSubSentence {
+    color: var(--blue, #BBD2FF);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.792px;
+    flex-direction: column;
+    margin-top: 0%;
+    top: 0%;
+}
+
+.usersIcon {
+    width: 24px;
+    height: 24px;
+}

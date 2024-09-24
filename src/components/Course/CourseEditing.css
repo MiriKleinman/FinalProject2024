@@ -1,0 +1,85 @@
+.editCourseBody {
+    right: 30%;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background: var(--gray, #F5F9FF) !important;
+    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.14) !important;
+    width: 600px !important;
+    flex-shrink: 0 !important;
+}
+
+.titleEdit {
+    color: var(--gray-text, #666476);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.44px;
+    position: relative;
+    top: 34px;
+}
+
+.labelEdit {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+}
+
+.formEditCourse {
+    top: 20%;
+    margin-right: 10%;
+}
+
+.successEditCourse {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 90%;
+    right: 30%;
+}
+
+.formEditCourse .leftpane {
+    margin-right: 50%;
+    position: absolute;
+    top: 15%;
+}
+
+.formEditCourse .rightpane {
+    left: 60%;
+    position: absolute;
+    top: 15%;
+}
+
+.sendEditingBtn {
+    display: flex;
+    width: 118px;
+    height: 36px;
+    padding: 9px 39px 6px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.38px;
+    bottom: 70px;
+    right: 241px;
+    position: absolute;
+}

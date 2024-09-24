@@ -1,0 +1,59 @@
+.editingUnitTimeTitle {
+    color: var(--gray-text, #666476);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.44px;
+}
+
+.editingUnitTimeForm {
+    position: relative;
+    width: 193px;
+    margin: 0 203.5px;
+}
+
+.editingUnitTimeLbl {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+}
+
+.saveEditingUnitTime {
+    display: flex;
+    width: 118px;
+    height: 36px;
+    right: 37.5px;
+    position: relative;
+    padding: 9px 0px 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+}
+
+.successEditMsg {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+    text-align: center;
+}

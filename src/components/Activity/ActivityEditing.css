@@ -1,0 +1,77 @@
+.editCourseBody {
+    right: 30%;
+}
+
+.editActivityTitle {
+    color: var(--gray-text, #666476);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.44px;
+    margin-top: 12%;
+}
+
+.editActivityForm {
+    top: 20%;
+    margin-right: 10%;
+}
+
+.saveEditActivity {
+    display: flex;
+    width: 118px;
+    height: 36px;
+    padding: 9px 39px 6px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.38px;
+    bottom: 70px;
+    right: 241px;
+    position: absolute;
+}
+
+.successEditActivity {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 93%;
+    right: 35%;
+}
+
+.leftPaneActivity {
+    margin-right: 50%;
+    position: absolute;
+    top: 20%;
+}
+
+.rightPaneActivity {
+    left: 60%;
+    position: absolute;
+    top: 20%;
+}
+
+.editActivityLbl {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+}

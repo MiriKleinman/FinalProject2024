@@ -1,0 +1,68 @@
+.h1 {
+    color: var(--purple-text, #262041);
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.66px;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+}
+
+.contentInputSendMsg {
+    border-radius: 6px;
+    border: 0.7px solid var(--light-purple, #B5A8D1);
+    background: #FFF;
+    height: 200px !important;
+    color: var(--dark-gray, #E1DFEA);
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+}
+
+.sendButton {
+    border-radius: 6px;
+    border: 1px solid var(--purple, #6450C8);
+    background: var(--purple, #6450C8);
+    display: flex;
+    width: 90px;
+    height: 30px;
+    padding: 8px 33px 7px 32px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.264px;
+    margin-top: 130px;
+    cursor: pointer;
+    margin-right: 95.5px;
+}
+
+.formSendMessage {
+    font-family: 'Noto Sans Hebrew';
+    color: var(--gray-text, #666476);
+    font-size: smaller;
+    margin: 100px;
+    text-align: center;
+}
+
+.successSendMessage {
+    color: var(--gray-text, #666476);
+    text-align: right;
+    font-family: 'Noto Sans Hebrew';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 30%;
+    margin-right: 30%
+}

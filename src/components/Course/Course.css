@@ -1,0 +1,198 @@
+#addCourse {
+  box-sizing: border-box;
+  width: 118px;
+  height: 36px;
+  left: calc(100vw - 1306px);
+  position: absolute;
+  background: #6450C8;
+  border: 1px solid #6450C8;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 150px;
+  border-radius: 6px;
+  display: flex;
+  padding: 9px 28px 13px 28px;
+  justify-content: center;
+  align-items: center;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Noto Sans Hebrew';
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.264px;
+  cursor: pointer;
+}
+
+.searchCourseInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 177px;
+  height: 36px;
+  top: 150px;
+  left: calc(100vw - 1170px);
+  background: #FFFFFF;
+  border: 1px solid #DEDAF3;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background: url("../../images/search.png") no-repeat left;
+  background-position-x: 10px;
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #C3C1CF;
+  display: flex;
+  align-items: center;
+  gap: 173.059px;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  font-family: 'Noto Sans Hebrew' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 120% !important;
+  text-align: right !important;
+  color: #B5A8D1 !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 130px;
+  margin-right: 30%;
+  width: 1300px;
+  height: 45px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E1DFEA;
+  border-radius: 8px 8px 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  font-family: 'Noto Sans Hebrew' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 120% !important;
+  text-align: right !important;
+  letter-spacing: -0.022em !important;
+  color: #262041 !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 130px;
+  position: relative;
+  margin-right: 30%;
+  width: 1300px;
+  height: 45px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E1DFEA;
+  border-radius: 8px 8px 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#imgCourse {
+  width: 40px;
+  height: 40px;
+}
+
+.editCourseLink,
+.displayCourseLink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.messageClick,
+.deleteClick {
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+}
+
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  font-family: 'Noto Sans Hebrew' !important;
+  color: #6450C8 !important;
+  font-weight: 900 !important;
+}
+
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root {
+  font-family: 'Noto Sans Hebrew' !important;
+  color: var(--gray-text, #666476) !important;
+  margin-top: 2% !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: var(--gray-text, #666476) !important;
+  font-family: 'Noto Sans Hebrew' !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  top: 220px !important;
+  right: 244px !important;
+}
+
+.successEditing {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #666476;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper:has(.sendMsgDrawer) {
+  width: 330px !important;
+  height: 100% !important;
+  position: fixed;
+  background: var(--gray, #EEF2FA);
+}
+
+.isolation_Mode {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .successEditing {
+  animation-duration: 3s;
+  animation-name: slidein;
+} */
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.successEditing {
+  position: fixed;
+  top: 50px; 
+  left: 40%;
+  transform: translateX(-50%);
+  color: #ADABBB; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+

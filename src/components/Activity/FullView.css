@@ -1,0 +1,128 @@
+.costActivityIcon,
+.countOfRegisteredsActivityIcon,
+.dateIcon,
+.activityTimeIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.costActivityIcon {
+    right: 250px;
+    top: 150px;
+}
+
+.countOfRegisteredsActivityIcon {
+    right: 405px;
+    top: 150px;
+}
+
+.dateIcon {
+    right: 250px;
+    top: 180px;
+}
+
+.activityTimeIcon {
+    right: 405px;
+    top: 180px;
+}
+
+.costDetailsActivity,
+.countOfParticipantsActivity,
+.activityDate,
+.activitytime {
+    position: absolute;
+    font-family: 'Noto Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #ADABBB;
+}
+
+.costDetailsActivity {
+    top: 150px;
+    right: 275px;
+}
+
+.countOfParticipantsActivity {
+    right: 430px;
+    top: 150px;
+}
+
+.activityDate {
+    right: 275px;
+    top: 180px;
+}
+
+.activitytime {
+    right: 430px;
+    top: 180px;
+}
+
+.editActivityA,
+.addParticipantBtn {
+    color: var(--purple, #6450C8);
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Noto Sans Hebrew';
+    font-weight: 500;
+    line-height: 127.5%;
+    letter-spacing: 0.3px;
+    top: 180px;
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.editActivityA {
+    left: 450px;
+}
+
+.addParticipantBtn {
+    left: 515px;
+}
+
+.editActivityIcon {
+    width: 15.103px;
+    height: 15.103px;
+    position: absolute;
+    left: 492px;
+    top: 180px;
+}
+
+.activityMessages {
+    width: 330px;
+    height: 100%;
+    position: fixed;
+    background: var(--gray, #EEF2FA);
+}
+
+.bodyFullViewOfActivity .imgDownLoad {
+    top: 173px;
+}
+
+.activityMessages .formSendMessageActivity {
+    font-family: 'Noto Sans Hebrew';
+    color: var(--gray-text, #666476);
+    font-size: smaller;
+    margin: 30px 24.5px 0;
+}
+
+.activityDetails .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    display: flex !important;
+    width: calc(100vw - 650px) !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    padding: 0px !important;
+    isolation: isolate !important;
+    right: 245px !important;
+    top: 181px !important;
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+    position: absolute;
+}
